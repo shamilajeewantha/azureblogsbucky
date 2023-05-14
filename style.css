@@ -1,0 +1,281 @@
+/*
+Theme Name:     Constructions Agency
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/construction-agency/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com/
+Description:    Construction Agency is a perfect and professional advanced multipurpose impressive, engaging and fully customizable, responsive free WordPress theme. Construction Agency is multipurpose theme which helps you to create different types of business websites ( consultant, finance, agency, industries, education, fashion, health & medical, wedding, photography, gym, architecture, lawyer ) and many more with the help of theme customizer features and 10+ custom elementor addon. Construction Agency theme is also fully compatible with the latest page builders plugins ( Elementor, SiteOrigin, Visual Composer ) and also created 10+ different widget, which you can easily implement in any page or post to create, edit and update beautifully page design, also theme has some exciting features like ( reorder each home section ), cross-browser compatible, translation ready, site speed optimized, SEO friendly theme and also supports WooCommerce and some other external plugins like Jetpack, Polylang, Yoast SEO, Contact Form 7 and many more plugins. If you face any problem related to our theme, you can refer to our theme documentation or contact our friendly support team.
+Version:        1.0.9
+Tested up to:   6.2
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       construction-light
+Text Domain:    constructions-agency
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+header.cons-agency .box-header-nav .main-menu .children,
+header.cons-agency .box-header-nav .main-menu .sub-menu,
+header.cons-agency .cons_light_top_bar {
+    background-color: #1c1918;
+    font-size: 14px;
+}
+
+header.cons-agency .box-header-nav .main-menu .children,
+header.cons-agency .box-header-nav .main-menu .sub-menu {
+    border-top: 1px solid #fff;
+    box-shadow: none;
+}
+
+header.cons-agency .nav-classic {
+    background: #000;
+    position: relative;
+    z-index: 1;
+}
+
+header.cons-agency .nav-classic .nav-menu .box-header-nav {
+    background: transparent;
+}
+
+header.cons-agency .nav-classic .header-middle-inner {
+    margin: 0;
+}
+
+header.cons-agency .box-header-nav .main-menu .page_item a,
+header.cons-agency .box-header-nav .main-menu>.menu-item>a {
+    margin: 0;
+    padding: 18px 14px;
+    font-size: 12px;
+}
+
+header.cons-agency .search-wrapper .search-form .search-submit {
+    padding: 11px;
+}
+
+header.cons-agency .search-wrapper .search-form label .search-field {
+    padding: 23px;
+}
+
+header.cons-agency .conslight-search-wrapper.search-layout-two.conslight-search-triggered {
+    width: 600px;
+}
+
+header.cons-agency .box-header-nav .main-menu .children>.page_item>a,
+header.cons-agency .box-header-nav .main-menu .sub-menu>.menu-item>a,
+header.cons-agency button.mobile-nav-toggle {
+    color: #fff;
+}
+
+header.cons-agency+.sp-banner-wrapper .banner-slider.owl-carousel.features-slider-1,
+header.cons-agency+.sp-banner-wrapper .banner-slider.owl-carousel.features-slider-2,
+header.cons-agency+.sp-banner-wrapper .breadcrumb {
+    margin-top: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    line-height: 1;
+}
+
+header.cons-agency .brandinglogo-wrap a,
+.home header.cons-agency .site-branding,
+header.cons-agency .brandinglogo-wrap {
+    background-color: transparent;
+    color: #fff;
+}
+
+header.cons-agency .box-header-nav .main-menu .page_item:hover a,
+header.cons-agency .box-header-nav .main-menu>.menu-item:hover>a {
+    opacity: .8;
+}
+
+header.cons-agency .box-header-nav .main-menu {
+    margin-right: 7px;
+}
+
+/** service layout four */
+.cons_light_feature.layout_four .feature-list .bottom-content {
+    position: absolute;
+    width: 90%;
+    border-radius: 4px;
+    background-color: #ffffffde;
+    transform: translate(0%, -50%);
+    left: 0;
+    top: 50%;
+    right: 0;
+    margin: 0 auto;
+}
+
+.cons_light_feature.layout_four .feature-list .box {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.cons_light_feature.layout_four .feature-list .box:hover .bottom-content {
+    display: none;
+}
+
+.cons_light_feature.layout_four .feature-list .box figure img {
+    height: 370px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cons_light_feature.layout_four .feature-list .icon-box {
+    position: unset;
+    border: none;
+    background-color: transparent;
+    color: #ffc107;
+    height: unset;
+    width: unset;
+    line-height: unset;
+}
+
+.cons_light_feature.layout_four .feature-list .icon-box+h3 {
+    margin: 10px 0;
+}
+
+.cons_light_feature.layout_four .feature-list .icon-box i {
+    font-size: 65px;
+    color: unset;
+}
+
+/* blog section */
+#cl_blog .articlesListing .article .blog-post-thumbnail .post-thumbnail img {
+    max-height: 100%;
+    border-radius: 5px 5px 00;
+}
+
+/** team section */
+.cons_light_team_layout_two.layout_three .box {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.cons_light_blog-list-area article,
+.cons_light_team_layout_two.layout_three .team-wrap,
+.cons_light_team_layout_two.layout_three .box figure {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%)
+}
+
+.cons_light_team_layout_two.layout_three .team-wrap {
+    width: 90%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: -25px;
+    z-index: 9;
+    border-bottom: 3px solid #feb921;
+    position: relative;
+}
+
+.cons_light_team_layout_two.layout_three .team-wrap p {
+    display: none;
+}
+
+/** contact section */
+.contact-and-map-section,
+.cl-promoservice-section.cons_light_feature .feature-list .box,
+.cl-contact-section.cons_light_feature .feature-list .box {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    min-height: 200px;
+    margin: 0;
+}
+
+.cl-promoservice-section.cons_light_feature .feature-list,
+.cl-service-section.cons_light_feature .feature-list {
+    margin-bottom: 30px;
+}
+
+.layout_four.cons_light_feature .feature-list .bottom-content,
+.cl-contact-section.cons_light_feature .feature-list .bottom-content {
+    padding: 20px;
+}
+
+.cl-contact-section.cons_light_feature .feature-list .icon-box {
+    position: unset;
+    color: #ffc107;
+    background: unset;
+    border: none;
+}
+
+.cl-contact-section.cons_light_feature .feature-list .icon-box i {
+    color: inherit;
+}
+
+.cl-contact-section.cons_light_feature iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.owl-carousel {
+    z-index: 0;
+}
+
+.cl-contact-section.cons_light_feature {
+    background: #f8f4f3;
+    background-image: url(assets/map-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.cons_light_counter {
+    border-radius: 3px 3px 5px 5px;
+}
+
+.section-title:before {
+    display: none;
+}
+
+.prevNextArticle {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.post-password-form label {
+    display: block;
+}
+
+button.mfp-close {
+    border: none;
+    margin: inherit;
+}
+
+.is-relative {
+    position: relative;
+}
+
+@media(min-width: 900px) {
+    .sp-overlay-overlap-absolute {
+        position: absolute;
+        transform: translate(5%, -110%);
+        width: 90%;
+        height: 80%;
+    }
+}
+
+.dashicons {
+    height: auto;
+    width: auto;
+}
+
+.box-shadow-ripples .dashicons a {
+    display: none;
+}
+
+@media(min-width: 1200px) {
+    .calltoaction_promo_wrapper.video_calltoaction .calltoaction_full_widget_content {
+        padding: 0 10%;
+    }
+}
+
+@media(max-width: 800px) {
+    .cons_light_team_layout_two ul.sp_socialicon li {
+        margin-right: 5px;
+    }
+}
